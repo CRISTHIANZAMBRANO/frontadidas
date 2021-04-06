@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+.h1{
+    color:aqua;
+}
+.navbar{
+    background-color:none;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 80px;
+}
+#header{
+    margin: auto;
+    width: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 80px;
+
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+
+    background-color:none;
+    color:black;
+    padding: 0px 10px;
+    text-decoration: none;
+    line-height: 80px;
+    height: 80px;
+    display: block;
+    
+}
+.nav li a:hover{
+    background-color: pink;
+}
+.nav > li{
+    float: left;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+    display: block;
+}
+.nav li ul li{
+    background-color:white;
+    color: black;
+}
+.nav li ul li:hover{
+    background-color: pink;
+}
+.field {
+    display:flex;
+    height: 80px;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+  
+  .field>input[type=text],
+  .field> #search{
+    height: 30px;
+  }
+#search {
+    text-decoration: none;
+    color: black;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+  }
+#search:hover{
+    background-color: white;
+    color: black;
+}
+.zapato{
+    background:url(/imagenes/zapato.jpg);
+    height:calc(100% - 80px);
+    z-index: -1000;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position-x: center;
+
+}
+#compra{
+    position: absolute;
+    top: 600px;
+    margin-left: 22px;
+    height: 80px;
+    width: 300px;
+    background-color: white;
+    font-family:cursive;
+    font-size: 30px;
+    border-radius: 10px;
+}
+#compra:hover{
+    color: slategrey;
+
+    
+}
